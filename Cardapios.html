@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaí Brasil - Cardapios</title>
+    <link rel="stylesheet" href="Prova.css">
+</head>
+<!---------------------------------------------------------------------------------->
+<body>
+    
+<header>
+<div class="logo"><img src="imagens/logo.png" class="logo" alt=""></div>
+
+<div class="topicos" class="top">
+    <a href="Home.html">Home</a>
+    <a href="Cardapios.html">Cardapio</a>
+    <a href="Contatos.html">Contato</a>
+    </div>
+
+</header>
+
+<!---------------------------------------------------------------------------------->
+
+<main>
+
+    <div class="Cardapios">
+        <div class="heading">
+            <h1>Cardapio</h1>
+        </div>
+    </div>
+
+    <div class="comidas">
+        <img src="imagens/1l.png" alt="">
+        <div class="detalhes">
+            <div class="detalhesComida">
+                <h5>Açai 1L</h5>
+                <h5 class="Valor">R$35,00</h5>
+            </div>
+            <p>Ingredientes: Granola, Paçoca, Amedoin, Uva passa, leite em po, confetti mm e coco ralado.<br>Cobertura: Leite condensado, cobertura de chocolate e cobertura de morango</p>
+            <button onclick="clicar()" class="card">Fazer o pedido</button>
+        </div>
+    </div>
+
+
+
+    <div class="comidas">
+        <img src="imagens/700ml.jpg" alt="">
+        <div class="detalhes">
+            <div class="detalhesComida">
+                <h5>Açai 700ml</h5>
+                <h5 class="Valor">R$17,00</h5>
+            </div>
+            <p>Ingredientes: Granola, Paçoca, Amedoin, Uva passa, leite em po, confetti mm e coco ralado.<br>Cobertura: Leite condensado, cobertura de chocolate e cobertura de morango</p>
+            <button onclick="clicar()" class="card">Fazer o pedido</button>
+        </div>
+    </div>
+
+
+    <div class="comidas">
+        <img src="imagens/500ml.png" alt="">
+        <div class="detalhes">
+            <div class="detalhesComida">
+                <h5>Açai 500ml</h5>
+                <h5 class="Valor">R$10,00</h5>
+            </div>
+            <p>Ingredientes: Granola, Paçoca, Amedoin, Uva passa, leite em po, confetti mm e coco ralado.<br>Cobertura: Leite condensado, cobertura de chocolate e cobertura de morango</p>
+            <button onclick="clicar()" class="card">Fazer o pedido</button>
+        </div>
+    </div>
+
+
+    <div class="comidas">
+        <img src="imagens/300ml.png" alt="">
+        <div class="detalhes">
+            <div class="detalhesComida">
+                <h5>Açai 300ml</h5>
+                <h5 class="Valor">R$5,00</h5>
+            </div>
+            <p>Ingredientes: Granola, Paçoca, Amedoin, Uva passa, leite em po, confetti mm e coco ralado.<br>Cobertura: Leite condensado, cobertura de chocolate e cobertura de morango</p>
+            <button onclick="Fazeropedido()" id="300ml" class="card">Fazer o pedido</button>
+        </div>
+    </div>
+
+
+</main>
+
+<!---------------------------------------------------------------------------------->
+
+<footer>
+    <div class="dd">
+        &copy;Caio Daniel
+    </div>
+</footer>
+
+
+<script>
+    function clicar(){
+        prompt("Esolha os ingredientes: Granola, Paçoca, Amedoin, Uva passa, leite em po, confetti mm e coco ralado.")
+        prompt("Escolha a cobertura: Leite condensado, cobertura de chocolate e cobertura de morango")
+        confirm("Deseja finalizar o pedido?")
+    }
+</script>
+
+</body>
+</html>
